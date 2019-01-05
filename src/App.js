@@ -10,15 +10,18 @@ import Projects from "./Projects";
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div>
-          <Nav />
-          <Route exact path="/" component={Home} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/projects" component={Projects} />
-        </div>
-      </Router>
+      <div>
+        hello
+        <Router>
+          <div>
+            <Nav />
+            <Route exact path="/" component={Home} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/projects" component={Projects} />
+          </div>
+        </Router>
+      </div>
     );
   }
 }
