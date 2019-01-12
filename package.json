@@ -26,7 +26,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://username.github.io/myapp",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
