@@ -4,19 +4,19 @@ import { Link } from "react-router-dom";
 export default class Nav extends React.Component {
   render() {
     return (
-      <div>
+      <div className="nav">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/contact/">Contact</Link>
+            <Link to="/contact/">CONTACT</Link>
           </li>
           <li>
-            <Link to="/resume/">Resume</Link>
+            <Link to="/resume/">RESUME</Link>
           </li>
           <li>
-            <Link to="/projects/">Projects</Link>
+            <Link to="/projects/">PROJECTS</Link>
           </li>
         </ul>
       </div>
