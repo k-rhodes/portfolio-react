@@ -21,14 +21,14 @@ export default class Projects extends React.Component {
           </Link>
         </div>
         <div>
-          <Link
+          <a
             className="project-link"
-            to="https://k-rhodes.github.io/fetch-itunes-api/"
+            href="https://k-rhodes.github.io/fetch-itunes-api/"
             target="_blank"
             rel="noopener noreferrer"
           >
             iTUNES API SEARCH
-          </Link>
+          </a>
         </div>
       </div>
     );
