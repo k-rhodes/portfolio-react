@@ -6,9 +6,14 @@ export default class Projects extends React.Component {
     return (
       <div className="projects">
         <div>
-          <Link className="project-link" to="">
+          <a
+            className="project-link"
+            href="https://fierce-falls-43276.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             CRUD SPA
-          </Link>
+          </a>
         </div>
         <div>
           <Link className="project-link" to="">
@@ -16,8 +21,13 @@ export default class Projects extends React.Component {
           </Link>
         </div>
         <div>
-          <Link className="project-link" to="">
-            ITUNES
+          <Link
+            className="project-link"
+            to="https://k-rhodes.github.io/fetch-itunes-api/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            iTUNES API SEARCH
           </Link>
         </div>
       </div>
